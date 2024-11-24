@@ -3,6 +3,12 @@
 import { Box, Heading, Text, Link, Container, HStack } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import Btn from './Components/shared/Btn';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+   title: 'Something went wrong',
+};
+
 const ErrorPage = ({ reset }: { reset: () => void }) => {
    return (
       <Container maxW={'breakpoint-xl'}>

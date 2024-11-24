@@ -24,7 +24,7 @@ export const metadata: Metadata = {
       'masud rana ',
    ],
    twitter: {
-      images: '/opengraph.jpg',
+      images: 'https://masudrwd.netlify.app/opengraph.jpg',
       card: 'summary_large_image',
       site: '@masudrwd',
       title: "Masud Rana's Blog",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       siteName: 'MasudRwd',
       images: [
          {
-            url: '/opengraph.jpg',
+            url: 'https://masudrwd.netlify.app/opengraph.jpg',
          },
       ],
    },
