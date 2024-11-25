@@ -1,5 +1,5 @@
 import { personalInformationData } from '@/db/Contact/personalInformation';
-import { Box, Flex, GridItem, Heading, Text, VStack } from '@chakra-ui/react';
+import { Box, Flex, GridItem, Heading, Text } from '@chakra-ui/react';
 
 const ContactAbout = () => {
    return (
