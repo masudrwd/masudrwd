@@ -59,7 +59,8 @@ const AboutPage = () => {
                <GridItem
                   bg={'secondary.900'}
                   _light={{ bg: 'secondary.100', border: '1px solid #ebebeb' }}
-                  p={12}
+                  px={{ base: 5, md: 12 }}
+                  py={12}
                   borderRadius={30}
                   colSpan={{ base: 12, lg: 5 }}
                >
@@ -68,7 +69,8 @@ const AboutPage = () => {
                <GridItem
                   bg={'secondary.900'}
                   _light={{ bg: 'secondary.100', border: '1px solid #ebebeb' }}
-                  p={10}
+                  px={{ base: 5, md: 12 }}
+                  py={10}
                   borderRadius={30}
                   colSpan={{ base: 12, lg: 7 }}
                >
@@ -85,7 +87,8 @@ const AboutPage = () => {
                <GridItem
                   bg={'secondary.900'}
                   _light={{ bg: 'secondary.100', border: '1px solid #ebebeb' }}
-                  p={12}
+                  px={{ base: 5, md: 12 }}
+                  py={12}
                   borderRadius={30}
                   colSpan={{ base: 12, lg: 6 }}
                >
@@ -94,7 +97,8 @@ const AboutPage = () => {
                <GridItem
                   bg={'secondary.900'}
                   _light={{ bg: 'secondary.100', border: '1px solid #ebebeb' }}
-                  p={10}
+                  px={{ base: 5, md: 12 }}
+                  py={10}
                   borderRadius={30}
                   colSpan={{ base: 12, lg: 6 }}
                >

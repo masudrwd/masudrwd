@@ -5,7 +5,7 @@ import { SocialLinksForProfile } from '@/db/socialLinks';
 const ProfileSocialSection = () => {
    return (
       <>
-         <HStack wrap="wrap" gap="8" mt={{ base: 3, md: 5 }}>
+         <HStack wrap="wrap" gap={{ base: 5, sm: 8 }} mt={{ base: 3, md: 5 }}>
             {SocialLinksForProfile?.map((item) => (
                <Link
                   as={NextLink}

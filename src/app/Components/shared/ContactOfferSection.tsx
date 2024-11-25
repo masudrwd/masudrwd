@@ -8,7 +8,8 @@ const ContactOfferSection = () => {
          <Box
             bg={'secondary.900'}
             _light={{ bg: 'secondary.100', border: '1px solid #ebebeb' }}
-            p={10}
+            px={{ base: 5, md: 12 }}
+            py={10}
             borderRadius={30}
             textAlign={'center'}
             mt={7}
@@ -19,7 +20,7 @@ const ContactOfferSection = () => {
                fontWeight={'medium'}
                lineHeight={1.5}
             >
-               Are You Looking for a React-js Front end Developer?
+               Are You Looking for a React js Front end Developer?
             </Heading>
             <Text color={'gray.500'} _dark={{ color: 'gray.400' }} my={7}>
                With expertise in React and Next.js, I build fast, responsive,
